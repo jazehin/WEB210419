@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     max-width: 970px;
-    box-shadow: 0 0 2px 2px blue;
+    box-shadow: 0px 0px 5px 1px blue;
     border-radius: 25px;
     padding: 40px;
     margin: 40px;
@@ -24,15 +24,25 @@ body {
 .doboz:nth-child(odd) {
     
     margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .doboz:nth-child(even) {
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
-    text-decoration: underline;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
 }
 
 h1#focim {
@@ -41,6 +51,7 @@ h1#focim {
     margin: auto;padding: 32px;
     border-radius: 30px;
     font-size: 24px;
+    box-shadow: 0px 2px;
 }
 
 p {
@@ -113,10 +124,14 @@ div.linkek {
     box-shadow: 2px 2px 2px #048;
 }
 
-li {
-    list-style-image: url("forras/img/suw.png");
+div.linkek a {
+    text-decoration: none;
     font-weight: bold;
     color: white;
+}
+
+li {
+    list-style-image: url("forras/img/suw.png");
 }
 
 li:hover {
